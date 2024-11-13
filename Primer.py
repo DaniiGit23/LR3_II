@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# Рассмотрим реализацию алгоритма поиска в ширину на практике, в программном коде.
+# Рассмотрим реализацию алгоритма поиска в глубину на практике, в программном коде.
+
 
 class Node:
     def __init__(self, state):
@@ -35,3 +36,4 @@ def depth_first_recursive_search(problem, node=None):
                 return result
 
     return failure
+

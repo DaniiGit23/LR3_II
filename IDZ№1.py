@@ -1,3 +1,7 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# Поиск самого длинного пути в матрице
+
 def longest_path(matrix, start_char):
     rows = len(matrix)
     cols = len(matrix[0])
